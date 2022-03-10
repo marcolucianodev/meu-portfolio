@@ -144,3 +144,8 @@ section#section-headline {
     bottom: 0;
     background-image: linear-gradient(to top, #090c17, #090c17 5%, transparent);
 }
+
+section#about-section {
+    display: flex;
+    background-color: red;
+}
