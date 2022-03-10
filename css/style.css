@@ -107,7 +107,7 @@ section#section-headline {
 
 .headline-buttons button {
     padding: 15px 20px;
-    font-size: 20px;
+    font-size: 16px;
     width: 30%;
     font-family: var(--title-font);
     font-weight: 600;
@@ -147,5 +147,58 @@ section#section-headline {
 
 section#about-section {
     display: flex;
-    background-color: red;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 50px;
+    padding: 100px;
+}
+
+.content-about-left {
+    position: relative;
+}
+
+.content-about-left img {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    background: linear-gradient(30.71deg, #d44829 7.511%, rgba(0, 20, 255, 0) 75.71%);
+    backdrop-filter: blur(0px);
+    border-radius: 50%;
+}
+
+.img-perfil-shadow {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: linear-gradient(to top, #090c17, #090c17 5%, transparent);
+}
+
+.content-about-right h3 {
+    font-size: 2rem;
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+}
+
+.content-about-right p {
+    font-size: 1.2rem;
+    color: var(--text-color);
+    line-height: 1.5;
+}
+
+button.download {
+    padding: 15px 20px;
+    font-size: 16px;
+    width: auto;
+    font-family: var(--title-font);
+    font-weight: 400;
+    cursor: pointer;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
 }
