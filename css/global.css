@@ -1,3 +1,14 @@
+
+:root {
+    --main-color: #090c17; /*#181818;*/
+    --secondary-color: #d44829;
+    --box-background: #12141c;
+    --text-color: #dfdfdf;
+    --main-font: 'Roboto', sans-serif;;
+    --title-font: 'Rubik', sans-serif;;
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -26,11 +37,6 @@ ul, li {
     list-style: none;
 }
 
-:root {
-    --main-color: #090c17; /*#181818;*/
-    --secondary-color: #d44829;
-    --box-background: #12141c;
-    --text-color: #dfdfdf;
-    --main-font: 'Roboto', sans-serif;;
-    --title-font: 'Rubik', sans-serif;;
+button {
+    border: none;
 }
