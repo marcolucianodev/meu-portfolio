@@ -93,7 +93,7 @@ section#section-headline {
 
 #section-headline h2 {
     font-family: var(--title-font);
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 500;
     line-height: 1.2;
 }
@@ -201,4 +201,69 @@ button.download {
     display: flex;
     justify-content: space-between;
     gap: 20px;
+}
+
+section#skills-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 50px;
+    color: var(--text-color);
+}
+
+.section-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--title-font);
+    font-size: 1.5rem;
+    margin-bottom: 100px;
+}
+
+.container-skills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.content-skills {
+    width: 30%;
+    background: var(--box-background);
+    color: var(--text-color);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.border-html {
+    border-bottom: 10px solid #ff5722;
+}
+
+.border-css {
+    border-bottom: 10px solid #2196f3;
+}
+
+.border-js {
+    border-bottom: 10px solid #f7e018;
+}
+
+.border-react {
+    border-bottom: 10px solid #61dbfb;
+}
+
+.border-styled {
+    border-bottom: 10px solid #d176ae;
+}
+
+.border-git {
+    border-bottom: 10px solid #f05033;
+}
+
+.content-skills img {
+    width: 55px;
+    margin-bottom: 20px;
+}
+
+.content-skills h2 {
+    margin-bottom: 10px;
 }
