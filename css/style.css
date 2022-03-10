@@ -142,5 +142,5 @@ section#section-headline {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: linear-gradient(to top, #090c17, #090c17 3%, transparent);
+    background-image: linear-gradient(to top, #090c17, #090c17 5%, transparent);
 }
