@@ -209,6 +209,7 @@ section#skills-section {
     flex-direction: column;
     padding: 100px 50px;
     color: var(--text-color);
+    position: relative;
 }
 
 .section-title {
@@ -224,15 +225,43 @@ section#skills-section {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 30px;
 }
 
 .content-skills {
-    width: 30%;
+    /* width: 30%;
     background: var(--box-background);
     color: var(--text-color);
     padding: 30px;
-    border-radius: 10px;
+    border-radius: 10px; */
+    position: relative; 
+    padding: 20px;
+    width: 280px;
+    /* height: 480px; */
+    margin: 30px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+.skill-brand {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.skill-title {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
 }
 
 .border-html {
