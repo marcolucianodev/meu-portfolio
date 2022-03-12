@@ -365,13 +365,13 @@ section#skills-section {
 .content-skills h2 {
     margin-bottom: 10px;
 }
+
 section#projects-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
-    gap: 50px;
     padding: 100px;
 }
 
@@ -505,4 +505,47 @@ section#projects-section {
 
 .project-content-access img:hover {
     filter: invert(32%) sepia(68%) saturate(1305%) hue-rotate(339deg) brightness(96%) contrast(97%);
+}
+
+section#contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 50px;
+}
+
+.contact-container {
+    padding: 0 0 40px;
+}
+
+.contact-social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.contact-social-icons span {
+    padding: 18px 20px;
+    background: var(--secondary-color);
+    border-radius: 30px;
+}
+
+.contact-social-icons img {
+    width: 20px;
+    filter: invert(100%) sepia(100%) saturate(100%) hue-rotate(303deg) brightness(100%) contrast(100%);
+}
+
+footer {
+    background-color: var(--text-color);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 40px !important;
+}
+
+.copy {
+    text-align: center;
 }
