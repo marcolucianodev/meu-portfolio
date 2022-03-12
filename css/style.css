@@ -184,14 +184,22 @@ section#about-section {
     padding: 20px;
 }
 
+.image-profile {
+    background: linear-gradient(55deg, #880088, #d44829, #f09f33);
+    border-radius: 50%;
+    padding: 3px 3px 0 3px;
+
+}
+
 .image-profile img {
-    width: 200px;
-    margin-bottom: 20px;
+    width: 180px;
     border-radius: 50%;
     transform: rotateY(180deg);
+    background-color: var(--main-color);
 }
 
 .profile-description {
+    margin-top: 20px;
     margin-bottom: 40px;
     font-size: 1.5rem;
     font-family: var(--title-font);
@@ -206,6 +214,11 @@ section#about-section {
 .social-icons-profile img {
     width: 25px;
     filter: invert(100%) sepia(100%) saturate(100%) hue-rotate(303deg) brightness(100%) contrast(100%);
+    transition: all 0.4s;
+}
+
+.social-icons-profile img:hover {
+    filter: invert(32%) sepia(68%) saturate(1305%) hue-rotate(339deg) brightness(96%) contrast(97%);
 }
 
 
@@ -270,6 +283,11 @@ section#skills-section {
     font-family: var(--title-font);
     font-size: 1.5rem;
     margin-bottom: 100px;
+}
+
+.section-title h2 {
+    text-align: center;
+    color: var(--text-color);
 }
 
 .container-skills {
@@ -346,4 +364,145 @@ section#skills-section {
 
 .content-skills h2 {
     margin-bottom: 10px;
+}
+section#projects-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 50px;
+    padding: 100px;
+}
+
+.container-projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.projects-content {
+    position: relative; 
+    width: 300px;
+    height: 480px;
+    margin: 30px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+.project-content-cover{
+    width: 100%;
+    height: 280px;
+    background-color: white;
+}
+
+.project-1 {
+    background-image: url('../assets/img/list-movies.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.project-2 {
+    background-image: url('../assets/img/advice-generator.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.project-3 {
+    background-image: url('../assets/img/appco.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.project-4 {
+    background-image: url('../assets/img/validador-de-formulario.png');
+    background-position: center;
+    background-size: contain;
+}
+
+
+.project-5 {
+    background-image: url('../assets/img/section-four-cards.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.project-6 {
+    background-image: url('../assets/img/starbucks.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.project-content-title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    color: var(--text-color);
+    width: 100%;
+}
+
+.project-content-description {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0 15px 15px 15px;
+    color: var(--text-color);
+    width: 100%;
+    height: 120px;
+}
+
+.project-content-skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.project-content-skills img {
+    width: 28px;
+}
+
+.html-icon {
+    filter: invert(61%) sepia(56%) saturate(7488%) hue-rotate(347deg) brightness(105%) contrast(101%);
+}
+
+.css-icon {
+    filter: invert(46%) sepia(94%) saturate(2093%) hue-rotate(184deg) brightness(98%) contrast(94%);
+}
+
+.js-icon {
+    filter: invert(93%) sepia(95%) saturate(914%) hue-rotate(341deg) brightness(99%) contrast(95%);
+}
+
+.react-icon {
+    filter: invert(80%) sepia(27%) saturate(5588%) hue-rotate(173deg) brightness(110%) contrast(107%);
+}
+
+.project-content-access {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.project-content-access img {
+    width: 25px;
+    filter: invert(100%) sepia(100%) saturate(100%) hue-rotate(303deg) brightness(100%) contrast(100%);
+    transition: all 0.3s;
+}
+
+.project-content-access img:hover {
+    filter: invert(32%) sepia(68%) saturate(1305%) hue-rotate(339deg) brightness(96%) contrast(97%);
 }
