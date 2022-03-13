@@ -112,6 +112,7 @@ section#section-headline {
     font-family: var(--title-font);
     font-weight: 600;
     cursor: pointer;
+    border-radius: 4px;
 }
 
 .btn-bg {
@@ -282,7 +283,7 @@ section#skills-section {
     align-items: center;
     font-family: var(--title-font);
     font-size: 1.5rem;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .section-title h2 {
@@ -507,6 +508,22 @@ section#projects-section {
     filter: invert(32%) sepia(68%) saturate(1305%) hue-rotate(339deg) brightness(96%) contrast(97%);
 }
 
+.more-projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.more-projects button {
+    padding: 10px 20px;
+    font-size: 17px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
 section#contact-section {
     display: flex;
     flex-direction: column;
@@ -528,7 +545,10 @@ section#contact-section {
 }
 
 .contact-social-icons span {
-    padding: 18px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 17px;
     background: var(--secondary-color);
     border-radius: 30px;
 }
