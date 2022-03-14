@@ -443,6 +443,30 @@ section#projects-section {
     background-size: cover;
 }
 
+.project-7 {
+    background-image: url('../assets/img/calculadora-porcentagem.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.project-8 {
+    background-image: url('../assets/img/fylo-theme.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.project-9 {
+    background-image: url('../assets/img/Card_in_React.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.project-10 {
+    background-image: url('../assets/img/faq-accordeon.png');
+    background-position: center;
+    background-size: cover;
+}
+
 .project-content-title {
     display: flex;
     justify-content: center;
