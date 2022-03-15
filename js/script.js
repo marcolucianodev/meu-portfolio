@@ -2,7 +2,6 @@ const btnMenuMobile = document.querySelector('.menu-mobile-icon');
 const menuMobile = document.querySelector('.menu-mobile');
 const back_to_top = document.querySelector('.back-to-top');
 const arrow_down = document.querySelector('.arrow-down');
-// const scroll_section = document.querySelector('#skills-section');
 
 btnMenuMobile.addEventListener('click', () => {
     if(menuMobile.classList.contains('menu-closed')) {
@@ -12,8 +11,8 @@ btnMenuMobile.addEventListener('click', () => {
             menuMobile.classList.add('menu-closed');
             menuMobile.classList.remove('menu-opened');
     }
-    btnMenuMobile.setAttibute('src', '../assets/img/close-icon.svg')
 })
+
 
 
 back_to_top.addEventListener('click', () => {
@@ -51,23 +50,18 @@ addEventListener('scroll', () => {
 })
 
 
-// scroll_section.addEventListener('scroll', () => {
-//     window.scrollLeft
-// })
+const obeserver = new IntersectionObserver(entries => {
+    console.log(entries)
 
+    Array.from(entries).forEach(entry => {
+        if(entry.intersectionRatio >= 1) {
+            entry.target.classList.add('init-hidden-off')
+        }
+    })
+}, {
+    threshold: [0, .5, 1]
+})
 
-
-
-
-// btnMenuMobile.addEventListener('click', () => {
-//     if(menuMobile.style.marginLeft == '-200px') {
-//         menuMobile.style.marginLeft == '0'
-//     } else {
-//         menuMobile.style.marginLeft == '-200px'
-//     }
-//     // if(menuMobile.classList.contains('menu-opened') == true) {
-//     //     menuMobile.classList.remove('menu-opened');
-//     // } else {
-//     //     menuMobile.classList.add('menu-opened')
-//     // }
-// })
+Array.from(document.querySelectorAll('.init-hidden')).forEach(element => {
+    obeserver.observe(element);
+})
