@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Rubik:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -52,8 +53,8 @@
         <div class="section-title">
             <h2>Meus Projetos</h2>
         </div>
-        <div class="container-projects">
-            <div class="projects-content">
+        <div class="container-projects" data-aos="zoom-in-left">
+            <div class="projects-content" data-aos="fade-up">
                 <div class="project-content-cover project-1"></div>
                 <div class="project-content-title">
                     <h2>List Movies</h2>
@@ -72,7 +73,7 @@
                     <a href="https://github.com/marcolucianodev/list-movies" target="_blank" title="Repositório Github"><img src="assets/img/github.svg" alt="Repositório Github"></a>
                 </div>
             </div>
-            <div class="projects-content">
+            <div class="projects-content" data-aos="fade-up">
                 <div class="project-content-cover project-2"></div>
                 <div class="project-content-title">
                     <h2>Advice Generator App</h2>
@@ -91,7 +92,7 @@
                     <a href="https://github.com/marcolucianodev/advice-generator-app" target="_blank" title="Repositório Github"><img src="assets/img/github.svg" alt="Repositório Github"></a>
                 </div>
             </div>
-            <div class="projects-content">
+            <div class="projects-content" data-aos="fade-up">
                 <div class="project-content-cover project-3"></div>
                 <div class="project-content-title">
                     <h2>Clone Template Appco</h2>
@@ -109,7 +110,7 @@
                     <a href="https://github.com/marcolucianodev/clone-appco" target="_blank" title="Repositório Github"><img src="assets/img/github.svg" alt="Repositório Github"></a>
                 </div>
             </div>
-            <div class="projects-content">
+            <div class="projects-content" data-aos="fade-up">
                 <div class="project-content-cover project-4"></div>
                 <div class="project-content-title">
                     <h2>Validador de Formulário</h2>
@@ -127,7 +128,7 @@
                     <a href="https://github.com/marcolucianodev/validador-de-formulario" target="_blank" title="Repositório Github"><img src="assets/img/github.svg" alt="Repositório Github"></a>
                 </div>
             </div>
-            <div class="projects-content">
+            <div class="projects-content" data-aos="fade-up">
                 <div class="project-content-cover project-5"></div>
                 <div class="project-content-title">
                     <h2>Section Four Cards</h2>
@@ -146,7 +147,7 @@
                     <a href="https://github.com/marcolucianodev/section-four-cards" target="_blank" title="Repositório Github"><img src="assets/img/github.svg" alt="Repositório Github"></a>
                 </div>
             </div>
-            <div class="projects-content">
+            <div class="projects-content" data-aos="fade-up">
                 <div class="project-content-cover project-6"></div>
                 <div class="project-content-title">
                     <h2>Clone Starbucks</h2>
@@ -163,7 +164,7 @@
                     <a href="https://github.com/marcolucianodev/clone-starbucks" target="_blank" title="Repositório Github"><img src="assets/img/github.svg" alt="Repositório Github"></a>
                 </div>
             </div>
-            <div class="projects-content">
+            <div class="projects-content" data-aos="fade-up">
                 <div class="project-content-cover project-7"></div>
                 <div class="project-content-title">
                     <h2>Calculadora de Porcentagem</h2>
@@ -181,7 +182,7 @@
                     <a href="https://github.com/marcolucianodev/calculadora-de-porcentagem" target="_blank" title="Repositório Github"><img src="assets/img/github.svg" alt="Repositório Github"></a>
                 </div>
             </div>
-            <div class="projects-content">
+            <div class="projects-content" data-aos="fade-up">
                 <div class="project-content-cover project-8"></div>
                 <div class="project-content-title">
                     <h2>Fylo Dark Theme</h2>
@@ -199,7 +200,7 @@
                     <a href="https://github.com/marcolucianodev/fylo-dark-theme" target="_blank" title="Repositório Github"><img src="assets/img/github.svg" alt="Repositório Github"></a>
                 </div>
             </div>
-            <div class="projects-content">
+            <div class="projects-content" data-aos="fade-up">
                 <div class="project-content-cover project-9"></div>
                 <div class="project-content-title">
                     <h2>Card In React</h2>
@@ -218,7 +219,7 @@
                     <a href="https://github.com/marcolucianodev/Card-in-React" target="_blank" title="Repositório Github"><img src="assets/img/github.svg" alt="Repositório Github"></a>
                 </div>
             </div>
-            <div class="projects-content">
+            <div class="projects-content" data-aos="fade-up">
                 <div class="project-content-cover project-10"></div>
                 <div class="project-content-title">
                     <h2>FAQ-Accordion</h2>
@@ -246,6 +247,14 @@
     </footer>
     <div class="back-to-top"><i class="fa fa-angle-up"></i></div>
 
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000
+        });
+    </script>
     <script src="js/script.js"></script>    
 </body>
 </html>

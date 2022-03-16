@@ -1,12 +1,3 @@
-.init-hidden {
-    opacity: 0;
-    transition: opacity .3s linear;
-}
-
-.init-hidden-off {
-    opacity: 1;
-}
-
 .main-container {
     display: flex;
     padding: 20px;
