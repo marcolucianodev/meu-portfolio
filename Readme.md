@@ -5,7 +5,7 @@
 
 <p>Projeto responsivo.</p>
   <br>
-  <a href="https://marcoluciano.netlify.app/" target="_blank"><img src="https://i.ibb.co/cxbqCtx/appco-clone.png" alt="appco-clone" border="0"></a>
+  <a href="https://marcoluciano.netlify.app/" target="_blank"><img src="https://github.com/marcolucianodev/meu-portfolio/blob/master/assets/img/meu-portfolio.png" alt="appco-clone" border="0"></a>
   <br>
   <h2>Link do Projeto</h2>
   <p><a href="https://marcoluciano.netlify.app/" target="_blank">Link do Projeto</a></p>
