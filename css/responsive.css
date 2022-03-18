@@ -16,6 +16,10 @@
     section#about-section {
         flex-direction: column;
     }
+
+    headline-img img {
+        max-width: 280px;
+    }
 }
 
 @media (max-width: 899px) {
