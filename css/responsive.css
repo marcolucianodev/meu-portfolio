@@ -8,6 +8,13 @@
     }
 }
 
+@media (min-width: 1134px ) and (max-width: 1440px) {
+    .arrow-down {
+        z-index: 2;
+        bottom: 100px;
+    }
+}
+
 @media (max-width: 1023px) {
     nav.desktop-menu {
         display: none;
@@ -17,7 +24,7 @@
         flex-direction: column;
     }
 
-    headline-img img {
+    .headline-img img {
         max-width: 280px;
     }
 }
