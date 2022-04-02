@@ -306,7 +306,7 @@ section#about-section {
 .image-profile img {
     width: 180px;
     border-radius: 50%;
-    transform: rotateY(180deg);
+    /* transform: rotateY(180deg); */
     background-color: var(--main-color);
 }
 
