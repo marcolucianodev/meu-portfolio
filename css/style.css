@@ -306,7 +306,6 @@ section#about-section {
 .image-profile img {
     width: 180px;
     border-radius: 50%;
-    /* transform: rotateY(180deg); */
     background-color: var(--main-color);
 }
 
@@ -532,62 +531,68 @@ section#projects-section {
     background-color: white;
 }
 
-.project-1 {
+.project-11 {
+    background-image: url('../assets/img/markus-img01.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.project-10 {
     background-image: url('../assets/img/list-movies.png');
     background-position: center;
     background-size: cover;
 }
 
-.project-2 {
+.project-9 {
     background-image: url('../assets/img/advice-generator.png');
     background-position: center;
     background-size: cover;
 }
 
-.project-3 {
+.project-8 {
     background-image: url('../assets/img/appco.png');
     background-position: center;
     background-size: cover;
 }
 
-.project-4 {
+.project-7 {
     background-image: url('../assets/img/validador-de-formulario.png');
     background-position: center;
     background-size: contain;
 }
 
 
-.project-5 {
+.project-6 {
     background-image: url('../assets/img/section-four-cards.png');
     background-position: center;
     background-size: cover;
 }
 
-.project-6 {
+.project-5 {
     background-image: url('../assets/img/starbucks.png');
     background-position: center;
     background-size: cover;
 }
 
-.project-7 {
+.project-4 {
     background-image: url('../assets/img/calculadora-porcentagem.png');
     background-position: center;
     background-size: cover;
 }
 
-.project-8 {
+.project-3 {
     background-image: url('../assets/img/fylo-theme.png');
     background-position: center;
     background-size: cover;
 }
 
-.project-9 {
+.project-2 {
     background-image: url('../assets/img/Card_in_React.png');
     background-position: center;
     background-size: cover;
 }
 
-.project-10 {
+.project-1 {
     background-image: url('../assets/img/faq-accordeon.png');
     background-position: center;
     background-size: cover;
