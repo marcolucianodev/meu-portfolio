@@ -427,6 +427,8 @@ section#skills-section {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    max-width: 1280px;
+    margin: auto;
 }
 
 .content-skills {
