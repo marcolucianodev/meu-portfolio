@@ -83,6 +83,12 @@
     }
 }
 
+@media (max-width: 480px) {
+    section#about-section {
+        padding: 30px;
+    }
+}
+
 @media (max-width: 374px) {
     button.download {
         font-size: 13px;
