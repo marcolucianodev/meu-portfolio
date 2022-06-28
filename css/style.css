@@ -112,7 +112,8 @@ nav .fa.fa-github {
 section#section-headline {
     display: flex;
     color: var(--text-color);
-    padding: 100px 50px;
+    /* padding: 100px 50px; */
+    padding: 100px 90px;
     align-items: center;
     gap: 40px;
 }
@@ -447,6 +448,7 @@ section#skills-section {
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     border-left: 1px solid rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(5px);
+    min-height: 22rem;
 }
 
 .skill-brand {
@@ -459,6 +461,10 @@ section#skills-section {
     display: flex;
     justify-content: flex-start;
     width: 100%;
+}
+
+.skill-description p {
+    line-height: 1.5;
 }
 
 .border-html {
@@ -483,6 +489,10 @@ section#skills-section {
 
 .border-git {
     border-bottom: 10px solid #f05033;
+}
+
+.border-tailwind {
+    border-bottom: 10px solid #ffffff;
 }
 
 .content-skills img {
