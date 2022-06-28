@@ -234,7 +234,7 @@ section#section-headline {
     position: relative;
 }
 
-.img-shadow {
+/* .img-shadow {
     position: absolute;
     width: auto;
     height: auto;
@@ -243,7 +243,7 @@ section#section-headline {
     right: 0;
     bottom: 0;
     background-image: linear-gradient(to top, #090c17, #090c17 5%, transparent);
-}
+} */
 
 .arrow-down {
     display: flex;
