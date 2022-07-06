@@ -543,8 +543,14 @@ section#projects-section {
     background-color: white;
 }
 
-.project-11 {
+.project-12 {
     background-image: url('../assets/img/markus-img01.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.project-11 {
+    background-image: url('../assets/img/marvel-api.png');
     background-position: center;
     background-size: cover;
 }
