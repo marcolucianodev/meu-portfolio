@@ -2,6 +2,12 @@ const btnMenuMobile = document.querySelector('.menu-mobile-icon');
 const menuMobile = document.querySelector('.menu-mobile');
 const back_to_top = document.querySelector('.back-to-top');
 const arrow_down = document.querySelector('.arrow-down');
+const footerDate = document.querySelector('.footer-date');
+
+//Get year on the footer copyrigths
+const footerYear = new Date().getFullYear();
+footerDate.innerHTML = footerYear;
+
 
 btnMenuMobile.addEventListener('click', () => {
     if(menuMobile.classList.contains('menu-closed')) {
@@ -48,5 +54,3 @@ addEventListener('scroll', () => {
         arrow_down.style.display = 'flex'
     }
 })
-
-
